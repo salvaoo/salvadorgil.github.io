@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton|Oxygen&display=swap');
+@import url("./../node_modules/hover.css/css/hover-min.css");
+
+/**************
+*  CABEZERA
+**************/
+header.mdl-layout__header.mdl-layout__header--scroll.header-color {
+  display: block;
+}
+
+.header-color {
+  /*background: #43cea2;
+  background: -webkit-linear-gradient(to left, #185a9d, #43cea2);
+  background: linear-gradient(to left, #185a9d, #43cea2);*/
+  /* background: #0f0c29;
+  background: -webkit-linear-gradient(to bottom, #24243e, #302b63, #0f0c29);
+  background: linear-gradient(to bottom, #24243e, #302b63, #0f0c29);  */
+  background: #8E2DE2;
+  background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2); 
+  background: linear-gradient(to right, #4A00E0, #8E2DE2);
+}
+
+div.mdl-layout__header-row {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/*****************
+*  FIN CABEZERA
+*****************/
+
+/********************
+*  PAGINA PROYECTOS 
+********************/
+span.mdl-layout-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+a.mdl-navigation__link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+a.mdl-tabs__tab {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+a.mdl-tabs__tab.is-active {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #4A00E0!important;
+}
+
+.mdl-tabs.is-upgraded .mdl-tabs__tab.is-active:after {
+  background: #4A00E0 !important;
+}
+
+.proyectos {
+  display: flex;
+}
+/************************
+*  FIN PAGINA PROYECTOS 
+************************/
+
+/*********************
+*  PAGINA PRINCIPAL 
+*********************/
+.img-avatar {
+  background-image: url(components/images/avatar_fin.png);
+}
+
+.imagen_avatar {
+  height: 500px;
+}
+
+.principal-grid {
+  background: #8E2DE2;
+  background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2); 
+  background: linear-gradient(to right, #4A00E0, #8E2DE2);
+  text-align: center;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width: 901px) and (max-width: 1135px){
+  .principal-grid {
+    position: relative;
+  }
+}
+
+@media (max-width: 900px) {
+  .texto-banner {
+    width: 90% !important;
+
+  }
+  .principal-grid {
+    position: relative;
+  }
+}
+
+.texto-banner {
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+  margin-bottom: 8%;
+}
+
+.texto-banner h1 {
+  padding-top: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 67px;
+  color: #ffffff;
+  margin-top: -2%;
+}
+
+.texto-banner hr {
+  border-top: 5px dotted #ffffff;
+  width: 50%;
+  margin: auto;
+}
+
+.texto-banner p {
+  font-family: 'Lato', sans-serif;
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 25px;
+  padding: 16px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+.social-links i {
+  color: #ffffff;
+  font-size: 80px;  /* 5em */
+  /* padding: 8px; */
+}
+
+.texto-inicio {
+  width: 70%;
+  padding-bottom: 0px;
+  margin-bottom: -20px !important;
+  text-align: left;
+  margin: auto;
+}
+/************************
+*  FIN PAGINA PRINCIPAL 
+************************/
+
+/************
+* CONTACTO
+************/
+.body-contacto {
+  margin: auto;
+  background: #8E2DE2;
+  background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2); 
+  background: linear-gradient(to right, #4A00E0, #8E2DE2);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 32px;  /* 2em */
+}
+
+.grid-contacto {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  background: white;
+  color: black;
+  border: 2px solid black;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.grid-contacto h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+.grid-contacto p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+.grid-contacto hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.lista-contacto i {
+  font-size: 40px;
+  padding-right: 40px;
+}
+
+.contacto-datos {
+  margin-left: 40px;
+}
+@media (min-width: 1000px) and (max-width: 1193px) {
+  .body-contacto {
+    position: relative;
+  }
+}
+@media (max-width: 999px)  {
+  .mdl-cell--7-col {
+    width: calc(87.5% - 16px) !important;
+  }
+  .body-contacto {
+    position: relative;
+    height: auto;
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+  .grid-contacto p {
+    padding-left: 0px;
+  }
+} 
+/***************
+* FIN CONTACTO
+***************/
+
+/***********
+* SOBRE MI
+***********/
+.sobreMi-derecha {
+  background: #27221F;
+  color: white;
+}
+
+.sobreMi-izquierda {
+  
+}
+
+/***************
+* FIN SOBRE MI
+***************/
+
+/****************
+*  ANIMACIONES
+****************/
+.animacion-principal-appear {
+  opacity: 0.01;
+}
+
+.animacion-principal-appear.animacion-principal-appear-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
+/********************
+*  FIN ANIMACIONES
+********************/
+
+
+/*** HOVER ***/
+.hvr-grow:hover {
+  color: rgba(0, 0, 0, 0.6) !important;
+}
+.hvr-grow:focus,
+.hvr-grow:active {
+  color: black !important;
+}
+
+.hvr-fade:hover,
+.hvr-fade:focus,
+.hvr-fade:active {
+  color: #4A00E0 !important;
+  background: white !important;
+}
