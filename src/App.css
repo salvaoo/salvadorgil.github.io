@@ -11,12 +11,6 @@ header.mdl-layout__header.mdl-layout__header--scroll.header-color {
 }
 
 .header-color {
-  /*background: #43cea2;
-  background: -webkit-linear-gradient(to left, #185a9d, #43cea2);
-  background: linear-gradient(to left, #185a9d, #43cea2);*/
-  /* background: #0f0c29;
-  background: -webkit-linear-gradient(to bottom, #24243e, #302b63, #0f0c29);
-  background: linear-gradient(to bottom, #24243e, #302b63, #0f0c29);  */
   background: #8E2DE2;
   background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2); 
   background: linear-gradient(to right, #4A00E0, #8E2DE2);
@@ -34,9 +28,13 @@ div.mdl-layout__header-row {
 *  PAGINA PROYECTOS 
 ********************/
 span.mdl-layout-title {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 28px;
-  font-weight: 700;
+  
+}
+
+.tituloPrincipal {
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 28px !important;
+  font-weight: 700 !important;
 }
 
 a.mdl-navigation__link {
@@ -211,7 +209,7 @@ a.mdl-tabs__tab.is-active {
 }
 
 .contacto-datos {
-  margin-left: 40px;
+  margin-left: 60px;
 }
 @media (min-width: 1000px) and (max-width: 1193px) {
   .body-contacto {
@@ -243,12 +241,42 @@ a.mdl-tabs__tab.is-active {
   background: #27221F;
   color: white;
   padding: 2em;
+  border: 2px solid black;
+  border-radius: 5px;
 }
 
 .sobreMi-izquierda {
-  
+  background: white;
+  color: black;
+  padding: 5%;
+  border: 2px solid black;
+  border-radius: 5px;
 }
 
+.informacion-sobreMi p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Lato';
+  font-size: 15px;
+}
+
+.informacion-sobreMi h5 {
+  font-family: 'Montserrat';
+}
+
+.fecha-sobreMi {
+  font-family: 'Lato';
+}
+
+.grid-sobreMi {
+  background: #8E2DE2;
+  background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2); 
+  background: linear-gradient(to right, #4A00E0, #8E2DE2);
+}
+
+div.progressbar.bar.bar1 {
+  background: #4c00e0;
+}
 /***************
 * FIN SOBRE MI
 ***************/

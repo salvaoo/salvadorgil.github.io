@@ -6,11 +6,11 @@ class Experiencia extends React.Component {
         return (
             <Grid>
                 <Cell col={3}>
-                    <h5>{this.props.añoInicio} {this.props.añoFin}</h5>
+                    <h5 className="fecha-sobreMi">{this.props.añoInicio} {this.props.añoFin}</h5>
                 </Cell>
                 <Cell col={9}>
-                    <h4>{this.props.empresa}</h4>
-                    <h5>{this.props.descripcion}</h5>
+                    <h4 className="fecha-sobreMi">{this.props.empresa}</h4>
+                    <h6 className="fecha-sobreMi">{this.props.descripcion}</h6>
                 </Cell>
             </Grid>
         )

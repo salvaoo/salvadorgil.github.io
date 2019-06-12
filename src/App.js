@@ -9,9 +9,8 @@ function App() {
     return (
         <div className="demo-big-content">
             <Layout>
-                <Header className="header-color" title="SALVADOR GIL" scroll>
+                <Header className="header-color" title={<Link className="tituloPrincipal" style={{textDecoration: 'none', color: 'white'}} to="/">SALVADOR GIL</Link>} scroll>
                     <Navigation>
-                        <Link className="hvr-grow" to="/">INICIO</Link>
                         <Link className="hvr-grow" to="/sobre_mi">SOBRE MI</Link>
                         <Link className="hvr-grow" to="/proyectos">PROYECTOS</Link>
                         <Link className="hvr-grow" to="/contacto">CONTACTO</Link>
